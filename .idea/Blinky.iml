@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="ModuleRunConfigurationManager">
+    <shared />
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+    </content>
+    <orderEntry type="jdk" jdkName="RVM: ruby-2.6.0 [Blinky]" jdkType="RUBY_SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="awesome_print (v1.8.0, RVM: ruby-2.6.0 [Blinky]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.17.2, RVM: ruby-2.6.0 [Blinky]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.3, RVM: ruby-2.6.0 [Blinky]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="docile (v1.3.1, RVM: ruby-2.6.0 [Blinky]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="interactor (v3.1.1, RVM: ruby-2.6.0 [Blinky]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v2.2.0, RVM: ruby-2.6.0 [Blinky]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.13.1, RVM: ruby-2.6.0 [Blinky]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="oj (v3.7.12, RVM: ruby-2.6.0 [Blinky]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec (v3.8.0, RVM: ruby-2.6.0 [Blinky]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-core (v3.8.0, RVM: ruby-2.6.0 [Blinky]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v3.8.3, RVM: ruby-2.6.0 [Blinky]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v3.8.0, RVM: ruby-2.6.0 [Blinky]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-support (v3.8.0, RVM: ruby-2.6.0 [Blinky]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="simplecov (v0.16.1, RVM: ruby-2.6.0 [Blinky]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="simplecov-html (v0.10.2, RVM: ruby-2.6.0 [Blinky]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="terminal-table (v1.8.0, RVM: ruby-2.6.0 [Blinky]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unicode-display_width (v1.6.0, RVM: ruby-2.6.0 [Blinky]) [gem]" level="application" />
+  </component>
+</module>
