@@ -14,6 +14,10 @@ Interactors hold a *context* which allows information about the process to be ch
 > Obviously if this was a real world project I would spend far more time cleaning and refactoring.
 > Specifically the models as they need some TLC.
 
+> Also the testing needs extending.
+> Due to the use of meta-programming, the tests would get quite... er... complex.
+> I chose not to do it, as the code shows my approach.
+
 The main process configures the required files, and uses an Organizer to chain 3 interactors.
 These are `Validator`, `Loader` and `Actor`.
 
