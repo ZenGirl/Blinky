@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="285f5f96-94b3-4118-ac7a-c44c880df435" name="Default Changelist" comment="" />
+    <list default="true" id="285f5f96-94b3-4118-ac7a-c44c880df435" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blinky/group_methods.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Blinky/group_methods.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.44453126">
+    <splitter split-orientation="vertical" split-proportion="0.4859375">
       <split-first>
         <splitter split-orientation="horizontal" split-proportion="0.47241223">
           <split-first>
@@ -71,8 +76,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/Blinky/group_methods.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="397">
-                      <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
+                    <state relative-caret-position="265">
+                      <caret line="30" column="110" selection-start-line="30" selection-start-column="110" selection-end-line="30" selection-end-column="110" />
                     </state>
                   </provider>
                 </entry>
@@ -113,7 +118,7 @@
         </splitter>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.4135887">
+        <splitter split-orientation="horizontal" split-proportion="0.3032376">
           <split-first>
             <leaf>
               <file pinned="false" current-in-tab="false">
@@ -137,8 +142,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/Blinky/actor.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="494">
-                      <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+                    <state relative-caret-position="455">
+                      <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
                     </state>
                   </provider>
                 </entry>
@@ -203,8 +208,8 @@
                 <entry file="file://$PROJECT_DIR$/README.md">
                   <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                     <state split_layout="SPLIT">
-                      <first_editor relative-caret-position="455">
-                        <caret line="35" selection-start-line="35" selection-end-line="35" />
+                      <first_editor relative-caret-position="182">
+                        <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
                       </first_editor>
                       <second_editor />
                     </state>
@@ -225,6 +230,9 @@
       <replace />
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -244,7 +252,6 @@
         <option value="$PROJECT_DIR$/spec/support/users_invalid.json" />
         <option value="$PROJECT_DIR$/spec/Blinky/validator_spec.rb" />
         <option value="$PROJECT_DIR$/spec/Blinky/loader_spec.rb" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Blinky/validator.rb" />
         <option value="$PROJECT_DIR$/Blinky/loader.rb" />
         <option value="$PROJECT_DIR$/Blinky/actor.rb" />
@@ -252,6 +259,7 @@
         <option value="$PROJECT_DIR$/Blinky/ticket.rb" />
         <option value="$PROJECT_DIR$/Blinky/organization.rb" />
         <option value="$PROJECT_DIR$/Blinky/group_methods.rb" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -260,6 +268,7 @@
     <option name="width" value="2560" />
     <option name="height" value="1372" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -302,6 +311,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spec/support" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -343,12 +353,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558869888791</updated>
-      <workItem from="1558869890090" duration="37825000" />
+      <workItem from="1558869890090" duration="38935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37825000" />
+    <option name="totallyTimeSpent" value="38935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1372" extended-state="0" />
@@ -514,16 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="455">
-            <caret line="35" selection-start-line="35" selection-end-line="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Blinky/validator.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -535,13 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blinky/actor.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -566,10 +559,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Blinky/actor.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Blinky/group_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
+        <state relative-caret-position="265">
+          <caret line="30" column="110" selection-start-line="30" selection-start-column="110" selection-end-line="30" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="182">
+            <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -28,7 +28,7 @@ module Blinky
         variables = out_mode == :full ? obj.class::FIELDS_FULL : obj.class::FIELDS_SUMMARY
         variables.each do |var|
           val = obj.instance_variable_get("@#{var}")
-          val = val[0..32] if out_mode == :summary # Shorten data for summary
+          val = val[0..32] if out_mode == :summary # Shorten data for summary - BRUTE FORCE - should be neater
           row << val
         end
         if depth == :deep
