@@ -75,15 +75,15 @@ describe Blinky::Validator do
             ORGANIZATIONS = 'organizations_valid.json'
           end
         end
-        it 'Tickets should succeed if not valid json' do
+        it 'Tickets should succeed if valid json' do
           subject.send(:get_data_home)
           expect {subject.send(:ensure_valid_json, Blinky::TICKETS)}.not_to raise_error(Interactor::Failure)
         end
-        it 'Users should succeed if not valid json' do
+        it 'Users should succeed if valid json' do
           subject.send(:get_data_home)
           expect {subject.send(:ensure_valid_json, Blinky::USERS)}.not_to raise_error(Interactor::Failure)
         end
-        it 'Organizations should succeed if not valid json' do
+        it 'Organizations should succeed if valid json' do
           subject.send(:get_data_home)
           expect {subject.send(:ensure_valid_json, Blinky::ORGANIZATIONS)}.not_to raise_error(Interactor::Failure)
         end

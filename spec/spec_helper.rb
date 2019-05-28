@@ -32,8 +32,8 @@ end
 require 'Blinky/group_methods'
 
 require 'Blinky/organization'
-require 'Blinky/ticket'
 require 'Blinky/user'
+require 'Blinky/ticket'
 
 require 'Blinky/validator'
 require 'Blinky/loader'

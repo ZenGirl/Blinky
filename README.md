@@ -24,6 +24,8 @@ Valid input prompts are:
 
 Examples:
 
+`tickets _id 436bf9b0-1147-4c0a-8439-6f79833bff5b`
+
 `users name rose newton`
 
 | Input | Meaning |

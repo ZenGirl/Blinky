@@ -23,7 +23,7 @@ RSpec.describe Blinky::Ticket do
     end
 
     it 'should have deep fields' do
-      expect(Blinky::Ticket::FIELDS_DEEP).to eq({organization_id: Blinky::Organization})
+      expect(Blinky::Ticket::FIELDS_DEEP).to eq({organization_id: Blinky::Organization, submitter_id: Blinky::User})
     end
   end
 

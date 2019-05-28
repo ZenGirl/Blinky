@@ -32,17 +32,37 @@ module Blinky
           row << val
         end
         if depth == :deep
-          # Deep! So check the connection, do a search and attach the new column
-          obj.class::FIELDS_DEEP.each do |key, klass|
-            deep_id = obj.instance_variable_get("@#{key}")
-            tab = "#{key}=>#{klass}\n"
-            klass.search('_id', deep_id).each do |deep_obj|
-              deep_obj.class::FIELDS_SUMMARY.each do |deep_var|
-                tab += "#{deep_var}: #{deep_obj.instance_variable_get("@#{deep_var}")}\n"
-              end
+          # Deep! So check the connection, do a search and attach the new column/row
+          row << deep_data(obj)
+        end
+        row
+      end
+
+      def deep_data(obj)
+        tab = ''
+        obj.class::FIELDS_DEEP.each do |key, klass|
+          deep_id = obj.instance_variable_get("@#{key}")
+          tab += "#{key}=>#{klass}\n"
+          klass.search('_id', deep_id).each do |deep_obj|
+            deep_obj.class::FIELDS_SUMMARY.each do |deep_var|
+              tab += sprintf("%-16s %s\n", deep_var, deep_obj.instance_variable_get("@#{deep_var}"))
             end
-            row << tab
           end
+          tab += "\n"
+        end
+        tab
+      end
+
+      # Builds output in a vertical format
+      def vertical_row(obj, depth)
+        row = []
+        variables = obj.class::FIELDS_FULL
+        variables.each do |var|
+          val = obj.instance_variable_get("@#{var}")
+          row << [var, val]
+        end
+        if depth == :deep
+          row << ['Deep', deep_data(obj)]
         end
         row
       end
