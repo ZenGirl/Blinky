@@ -3,6 +3,10 @@
 This is a simple CLI program to handle the ZenDesk code challenge.
 The original PDF is in the `docs` directory.
 
+The current ruby version is `2.6.0` as noted in the `.ruby-version` file.
+
+The gemset is named `Blinky` after the Blinky Bill comics.
+
 ## Usage
 
 Download gems:
@@ -71,6 +75,12 @@ Interactors hold a *context* which allows information about the process to be ch
 
 > I made a mistake in using uppercase for the sub-folder `Blinky` instead of `blinky`.
 > Sigh. My bad.
+
+> I wrote the code from scratch without using `git`.
+> After the project ran successfully, I uploaded it to my git repo.
+> Currently there is only one branch `master`.
+> This is not my normal workflow.
+> I normally have `master`, `develop` and working branches.
 
 The main process configures the required files, and uses an Organizer to chain 3 interactors.
 These are `Validator`, `Loader` and `Actor`.
