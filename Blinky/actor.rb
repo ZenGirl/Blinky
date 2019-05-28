@@ -7,7 +7,7 @@ module Blinky
       context.out_mode = :full
       context.depth    = :shallow
       puts help
-      print "#{context.out_mode} #{context.depth} > "
+      print "\033[0;34m#{context.out_mode} #{context.depth} > \033[0m"
       while phrase = gets.chomp
         words = phrase.squeeze(' ').downcase.split(' ')
         break if words[0] == 'quit'
@@ -35,7 +35,7 @@ module Blinky
         when 'stats'
           puts stats
         end
-        print "#{context.out_mode} #{context.depth} > "
+        print "\033[0;34m#{context.out_mode} #{context.depth} > \033[0m"
       end
     end
 
@@ -83,11 +83,11 @@ You can quit by entering "quit" at the prompt.
 There are 3 "groups": users, organizations and tickets.
 
 Groups can be searched by entering a phrases like:
-  users _id 5
-  users name Rose Newton
-  tickets priority high
-  tickets _id 436bf9b0-1147-4c0a-8439-6f79833bff5b
-  organizations name nutralab
+  \033[0;31musers\033[0m _id 5
+  \033[0;31musers\033[0m name Rose Newton
+  \033[0;31mtickets\033[0m priority high
+  \033[0;31mtickets\033[0m _id 436bf9b0-1147-4c0a-8439-6f79833bff5b
+  \033[0;31morganizations\033[0m name nutralab
 
 There are several "status" commands shown below. 
 

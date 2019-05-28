@@ -24,85 +24,32 @@ Valid input prompts are:
 
 Examples:
 
-`tickets _id 436bf9b0-1147-4c0a-8439-6f79833bff5b`
+You can quit by entering "quit" at the prompt.
 
-`users name rose newton`
+There are 3 "groups": users, organizations and tickets.
 
-| Input | Meaning |
-| ----- | --------|
-| deep  | Extend the search to include extra detail |
-| shallow | Only show the main objects data |
-| summary | Limit the output to include only meaningful data |
-| full | Show all data for an object |
+Groups can be searched by entering a phrases like:
 
-A Summary output is shown below:
+-  users _id 5
+-  users name Rose Newton
+-  tickets priority high
+-  tickets _id 436bf9b0-1147-4c0a-8439-6f79833bff5b
+-  organizations name nutralab
 
-```
-Blinky: Validating environment
-Blinky: Validating files
-Blinky: Validating ./data/tickets.json
-Blinky: Validating ./data/users.json
-Blinky: Validating ./data/organizations.json
-+---------------+-------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Group         | Count | Fields                                                                                                                                                                     |
-+---------------+-------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Users         | 75    | _id, url, external_id, name, alias, created_at, active, verified, shared, locale, timezone, last_login_at, email, phone, signature, organization_id, tags, suspended, role |
-| Organizations | 25    | _id, url, external_id, name, domain_names, created_at, details, shared_tickets, tags                                                                                       |
-| Tickets       | 200   | _id, url, external_id, created_at, type, subject, description, priority, status, submitter_id, assignee_id, organization_id, tags, has_incidents, due_at, via              |
-+---------------+-------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+There are several "status" commands shown below. 
+
+Status examples:
+
+| command | meaning |
+| ------- | ------- |
+| help      | Display this message |
+| stats     | Show current groups and row totals |
+| summary   | Summarize the tabulated output horizontally |
+| full      | Show full details vertically |
+| deep      | Show extended details e.g. users organization |
+| shallow   | Do not show extended details |
 
 
-Welcome to Blinky! A simple CLI for searching Users, Tickets and Organizations
-You can quit by entering "quit" (or "q") at the prompt.
-Users can be searched by entering a phrases like:
-  users _id 5
-  users name Rose Newton
-  tickets priority high
-  organizations name nutralab
-Hint: Use 'summary' or 'full' to change the amount of output.
-summary
-Set output to summary mode
-
-
-Welcome to Blinky! A simple CLI for searching Users, Tickets and Organizations
-You can quit by entering "quit" (or "q") at the prompt.
-Users can be searched by entering a phrases like:
-  users _id 5
-  users name Rose Newton
-  tickets priority high
-  organizations name nutralab
-Hint: Use 'summary' or 'full' to change the amount of output.
-shallow
-Set output to shallow mode
-
-
-Welcome to Blinky! A simple CLI for searching Users, Tickets and Organizations
-You can quit by entering "quit" (or "q") at the prompt.
-Users can be searched by entering a phrases like:
-  users _id 5
-  users name Rose Newton
-  tickets priority high
-  organizations name nutralab
-Hint: Use 'summary' or 'full' to change the amount of output.
-users name rose newton
-Searching Users
-+-----+-------------+-------------+--------+----------+-----------------------------+--------------+-----------------------+-----------------------------------+-----------+----------+
-| _id | name        | alias       | active | verified | email                       | phone        | signature             | tags                              | suspended | role     |
-+-----+-------------+-------------+--------+----------+-----------------------------+--------------+-----------------------+-----------------------------------+-----------+----------+
-| 4   | Rose Newton | Mr Cardenas | true   | true     | cardenasnewton@flotonic.com | 8685-482-450 | Don't Worry Be Happy! | ["Gallina", "Glenshaw", "Rowe", " | true      | end-user |
-+-----+-------------+-------------+--------+----------+-----------------------------+--------------+-----------------------+-----------------------------------+-----------+----------+
-Total rows returned: 1
-
-
-Welcome to Blinky! A simple CLI for searching Users, Tickets and Organizations
-You can quit by entering "quit" (or "q") at the prompt.
-Users can be searched by entering a phrases like:
-  users _id 5
-  users name Rose Newton
-  tickets priority high
-  organizations name nutralab
-Hint: Use 'summary' or 'full' to change the amount of output.
-```
 
 ## Notes
 
